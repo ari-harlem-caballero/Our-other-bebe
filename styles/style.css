@@ -32,9 +32,19 @@ button {
 }
 
 #refold-button {
+    width: 100px;
     margin: 40px;
+    padding: 0 5px 0 5px;
 }
-/* 
+
 .hidden-video {
-    display: none;
-} */
+    width: 90%;
+    min-height: 13rem;
+}
+
+@media (min-width: 43em){
+    .hidden-video {
+        width: 560px;
+        height: 315px;
+    }
+}
