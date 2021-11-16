@@ -10,3 +10,41 @@ body, html {
     width: 100%;
     height: 100vh;
 }
+
+body {
+    background-color: #FCBB45;
+}
+
+h1 {
+    color: #7c2d13;
+}
+
+button {
+    color:#7c2d13;
+    background-color: #cb7635;
+    border: 3px solid #7c2d13;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+}
+
+#refold-button {
+    width: 100px;
+    margin: 40px;
+    padding: 0 5px 0 5px;
+}
+
+.hidden-video {
+    width: 90%;
+    min-height: 13rem;
+}
+
+@media (min-width: 43em){
+    .hidden-video {
+        width: 560px;
+        height: 315px;
+    }
+}
