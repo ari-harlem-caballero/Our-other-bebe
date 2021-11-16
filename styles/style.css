@@ -10,3 +10,27 @@ body, html {
     width: 100%;
     height: 100vh;
 }
+
+body {
+    background-color: #FCBB45;
+}
+
+h1 {
+    color: #7c2d13;
+}
+
+button {
+    color:#7c2d13;
+    background-color: #cb7635;
+    border: 3px solid #7c2d13;
+    border-radius: 20px;
+    width: 80px;
+    height: 30px;
+    font-size: 15px;
+    text-align: center;
+    /* padding: 5px 0 5px 0; */
+}
+
+.hidden-video {
+    display: none;
+}
