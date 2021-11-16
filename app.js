@@ -13,27 +13,27 @@ const refoldButton = document.getElementById('refold-button');
 let clickCounter = 0;
 
 foldButton.addEventListener('click', () => {
-  clickCounter++
+    clickCounter++;
   
-  if (clickCounter === 1) {
-    moiraQuote.textContent = 'Just fold the cheese, David.'
-  } 
-  if (clickCounter === 2) {
-    moiraQuote.textContent = 'If you say fold the cheese one more time.'
-  }
-  if (clickCounter === 3) {
-    cheeseVideo.style.display = 'block';
-    moiraQuote.style.display = 'none';
-    foldButton.style.display = 'none';
-    refoldButton.style.display = 'block';
-  }
+    if (clickCounter === 1) {
+        moiraQuote.textContent = 'Just fold the cheese, David.';
+    } 
+    if (clickCounter === 2) {
+        moiraQuote.textContent = 'If you say fold the cheese one more time.';
+    }
+    if (clickCounter === 3) {
+        cheeseVideo.style.display = 'block';
+        moiraQuote.style.display = 'none';
+        foldButton.style.display = 'none';
+        refoldButton.style.display = 'block';
+    }
 });
 
 refoldButton.addEventListener('click', () => {
-  cheeseVideo.style.display = 'none';
-  moiraQuote.style.display = 'block';
-  moiraQuote.textContent = 'Next step is to fold the cheese.'
-  refoldButton.style.display = 'none';
-  foldButton.style.display = 'block';
-  clickCounter = 0;
+    cheeseVideo.style.display = 'none';
+    moiraQuote.style.display = 'block';
+    moiraQuote.textContent = 'Next step is to fold the cheese.';
+    refoldButton.style.display = 'none';
+    foldButton.style.display = 'block';
+    clickCounter = 0;
 });
